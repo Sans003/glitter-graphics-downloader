@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Glitter Graphics Image Downloader",
+    "content_scripts": [
+      {
+        "css": ["main.css"],
+        "js": ["main.js"],
+        "matches": ["https://www.glitter-graphics.com/*"]
+      }
+    ]
+  }
+  
